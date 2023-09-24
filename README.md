@@ -64,7 +64,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 
-Kumar Deblin
+[Kumar Deblin]
 
 ## Acknowledgments
 
