@@ -1,0 +1,117 @@
+/* TaskList.module.css */
+.task-box{
+    margin-top: 10px;
+}
+.task-heading{
+    width: 95%;
+    margin: auto auto 10px;
+}
+.task-list {
+    width: 95%;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius:2px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-item.dark {
+    background-color: #333;
+    border-radius:2px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #fff;
+  }
+  
+
+  .task-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .task-description {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 25%;
+  }
+  
+  .edit-form input{
+    width: 95%;
+    padding: 5px;
+  }
+  .edit-form textarea{
+      width: 96%;
+      padding: 5px;
+  }
+  .edit-form button {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .edit-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-form button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .action-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+  }
+
+  .light-del-btn{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+  }
+  .light-edit-btn{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+  }
+  .dark-del-btn{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+  }
+  .dark-edit-btn{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+  }
